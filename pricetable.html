@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <style> 
+        .price-table {
+            width: 1000px;
+            height: 500px;
+           
+            margin-left: 100px;
+            margin-top: 100px;
+            display: grid;
+            padding-top: 40px;
+            grid-template-columns: 1fr 1fr 1fr;
+           justify-items: center;
+        }
+
+        .basic-div {
+           border-radius: 1px;
+           border-color: gray;
+          
+           width: 300px;
+           height: 200px;
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+           padding-top: 20px;
+           padding-bottom: 30px;
+         
+
+
+        }
+
+        .basic:hover{
+            box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+
+
+
+        }
+
+        .basic-head {
+            display: flex;
+            font-weight: bold;
+            font-size: 30px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 300px;
+            height: 400px;
+            background-color: black;
+            margin-top: 0px;
+            color: white;
+            
+        
+        }
+
+        .year {
+
+            display: flex;
+            font-weight: bold;
+            font-size: 20px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 300px;
+            height: 500px;
+            background-color: #EEEEEE;
+            margin-top: 0px;
+            color: black;
+            border-bottom: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #EEEEEE;
+        
+
+        }
+
+        .storage {
+         
+            display: flex;
+        
+            font-size: 15px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 300px;
+            height: 500px;
+            border-left:1px ;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: black;
+            border-bottom: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid; 
+            border-right-color: #EEEEEE; 
+            border-bottom-color: #EEEEEE;
+            border-left-color: #EEEEEE;
+
+        }
+
+        .email {
+           
+            display: flex;
+            font-size: 15px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            width: 300px;
+            height: 500px;
+            border-left:1px ;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            margin-top: 0px;
+            color: black;
+            border-bottom: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-right-color: #EEEEEE; 
+            border-bottom-color: #EEEEEE;
+            border-left-color: #EEEEEE;
+
+
+
+        }
+
+        .domains {
+
+            display: flex;
+            font-size: 15px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            width: 300px;
+            height: 500px;
+            border-left:1px ;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            margin-top: 0px;
+            color: black;
+            border-bottom: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-right-color: #EEEEEE; 
+            border-bottom-color: #EEEEEE;
+            border-left-color: #EEEEEE;
+
+
+        }
+
+        .bandwith {
+            display: flex;
+            font-size: 15px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            width: 300px;
+            height: 500px;
+            border-left:1px ;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            margin-top: 0px;
+            color: black;
+            border-bottom: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-right-color: #EEEEEE; 
+            border-bottom-color: #EEEEEE;
+            border-left-color: #EEEEEE;
+
+        }
+
+        .btn-signup{
+            background-color: #04AA6D ;
+            border: none;
+            padding: 10px;
+            width: 100px;
+            color: white;
+            height: 50px;
+            font-weight: bold;
+    
+        }
+
+        .btn-signup:hover{
+            background-color: #9EAA6D;
+
+        }
+
+        .btn-div {
+            display: flex;
+            font-size: 15px;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            width: 300px;
+            height: 500px;
+            border-left:1px ;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            margin-top: 0px;
+            color: black;
+            border-bottom: 1px;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-right-color: #EEEEEE; 
+            border-bottom-color: #EEEEEE;
+            border-left-color: #EEEEEE;
+            background-color: #EEEEEE;
+        
+        }
+
+
+
+        
+
+
+
+
+
+        </style>
+
+
+
+
+    </head>
+
+
+    <body>
+        <div class="price-table">
+
+
+            <div class="basic">
+               <div class="basic-div">
+
+                <div class="basic-head "> Basic </div>
+                <div class="year">9.99/Year</div>
+                <p class="storage">10GB Storage</p>
+                <p class="email">10 Emails </p>
+                <p class="domains">10 Domains </p>
+                <p class="bandwith"> 1GB Bandwidth </p>
+
+                <div class="btn-div">
+                    <button class="btn-signup">Sign Up</button>
+                </div>
+               
+               </div>
+
+            </div>
+
+
+            <div class="pro">
+                 <div class="basic-div">
+                
+                <div> Basic </div>
+                <div>9.99/Year</div>
+                <p>10GB Storage</p>
+                <p>10 Emails </p>
+                <p>10 Domains </p>
+                <p> 1GB Bandwidth </p>
+                <button>Sign Up</button>
+               </div>
+
+
+
+
+            </div>
+
+            <div class="premium">
+
+                <div class="basic-div">
+                
+                    <div> Basic </div>
+                    <div>9.99/Year</div>
+                    <p>10GB Storage</p>
+                    <p>10 Emails </p>
+                    <p>10 Domains </p>
+                    <p> 1GB Bandwidth </p>
+                    <button>Sign Up</button>
+                   </div>
+
+            </div>
+
+
+
+
+        </div>
+
+
+        
+    </body>
+
+
+
+</html>

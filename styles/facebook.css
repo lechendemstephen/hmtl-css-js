@@ -1,0 +1,25 @@
+
+.body {
+    background-color: #EFF1F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.main-section {
+    background-color: rgb(221, 77, 77);
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 10%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.main-section div:nth-child(1) {
+   margin-right: 50px;
+   margin-left: 300px;
+}

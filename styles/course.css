@@ -1,0 +1,42 @@
+
+    p{
+    font-family: Roboto;
+    }
+
+    .title{
+        margin-bottom: 0px;
+    }
+
+
+    .sub-description{
+        color: rgb(167, 149, 149);
+        margin-top: 0px;
+        line-height: 25px;
+    
+    }
+
+    .description{
+        width: 250px;
+
+    }
+
+    .button{
+        background-color: rgb(6, 138, 6);
+        color: white;
+        font-family: Verdana;
+        font-size: x-large;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: background-color 1s, color 1s;
+    }
+
+    .button:hover{
+        background-color: white;
+        color: rgb(6, 138, 6) ;
+    }
+
